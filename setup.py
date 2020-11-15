@@ -19,8 +19,9 @@ setup(
     version="0.0.1",
     author="Narayan Schuetz",
     author_email="narayan.schuetz(at)artorg.unibe.ch",
-    description="Provides functionality to perform automated time-delay analysis to align non-synchronized sensors "
-                "signals measuring the same underlying process",
+    description="Monkey patches pandas to directly allow data normalization by means of min-max scaling and zero-mean "
+                "unit-variance standardization unit variance This is only for convenience as I found myself too often "
+                "having to write this by hand or use sklearn, which both leads to less concise code.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/NarayanSchuetz/pandas_normalization.git",
